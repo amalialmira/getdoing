@@ -90,7 +90,7 @@ const Navbar = () => {
 
             {/* Navbar scroll */}
             <nav
-                className={`fixed top-0 left-1/2 -translate-x-1/2 w-[calc(100%-5rem)] p-2 transition-all duration-300 z-50 backdrop-blur-lg mt-5 rounded-full
+                className={`fixed top-0 left-1/2 -translate-x-1/2 w-[calc(100%-5rem)]  transition-all duration-300 z-50 bg-white bg-opacity-50 backdrop-blur-lg mt-5 rounded-full
                 ${isScrolled ? 'text-white' : 'opacity-0'}`}
             >
                 <header className="relative z-50 ">
@@ -132,7 +132,7 @@ const Navbar = () => {
                                         Blog
                                     </li>
                                     <li className="flex text-[15px] max-lg:py-2 px-3 hover:text-[#007bff] hover:fill-[#007bff]">
-                                        <button style={{letterSpacing: "0.25em"}}  className="px-4 py-2 text-sm font-bold text-[#333] bg-transparent">
+                                        <button style={{letterSpacing: "0.25em"}}  className="px-4 py-2 text-sm font-semibold text-[#333] bg-transparent">
                                             LOGIN
                                         </button>
                                     </li>
