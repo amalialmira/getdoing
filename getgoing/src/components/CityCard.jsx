@@ -80,7 +80,7 @@ const CityCard = () => {
             <div className="mt-2 gap-10 slider-container mb-10">
                 <Slider {...settings}>
                     {data.map((city, idx) => (
-                        <div key={idx} className="px-2 overflow-visible"> {/* Add padding between slides */}
+                        <div key={idx} className="px-2 overflow-visible pt-5">
                             <div className="relative w-full h-96 cursor-pointer hover:-translate-y-2 transition-all mb-5">
                                 <img
                                     src={city.imgUrl}

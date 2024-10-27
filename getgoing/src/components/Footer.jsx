@@ -56,7 +56,7 @@ const Footer = () => {
                             <ul className="space-y-0">
                                 <li>
                                     <a
-                                        href="javascript:void(0)"
+                                        href="https://apps.apple.com/us/app/getgoing/id1602015694"
                                         className="text-white text-md"
                                     >
                                         <img src="https://getgoing.co.id/content/svg/AppStore.svg" alt="appstore" className="w-44" />
@@ -64,7 +64,7 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href="javascript:void(0)"
+                                        href="https://play.google.com/store/apps/details?id=com.getgoing.app"
                                         className="text-white text-md"
                                     >
                                         <img src="https://getgoing.co.id/content/svg/GooglePlay.svg" alt="appstore" className="w-44" />
@@ -77,7 +77,7 @@ const Footer = () => {
                             <ul className="space-y-1">
                                 <li>
                                     <a
-                                        href="javascript:void(0)"
+                                        href="https://getgoing.co.id/syarat-ketentuan"
                                         className="text-white text-md hover:border-b"
                                     >
                                         Syarat & Ketentuan
@@ -85,7 +85,7 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href="javascript:void(0)"
+                                        href="https://getgoing.co.id/kebijakan-privasi"
                                         className="text-white text-md hover:border-b"
                                     >
                                         Kebijakan Privasi
@@ -93,7 +93,7 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href="javascript:void(0)"
+                                        href="https://getgoing.co.id/dokumentasi"
                                         className="text-white text-md hover:border-b"
                                     >
                                         Dokumentasi
@@ -101,7 +101,7 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href="javascript:void(0)"
+                                        href="https://getgoing.co.id/penghargaan"
                                         className="text-white text-md hover:border-b"
                                     >
                                         Penghargaan
@@ -109,7 +109,7 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href="javascript:void(0)"
+                                        href="https://getgoing.co.id/login"
                                         className="text-white text-md hover:border-b"
                                     >
                                         Login
@@ -117,7 +117,7 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href="javascript:void(0)"
+                                        href="https://getgoing.co.id/press"
                                         className="text-white text-md hover:border-b"
                                     >
                                         Press
@@ -125,7 +125,7 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <a
-                                        href="javascript:void(0)"
+                                        href="https://getgoing.co.id/faq"
                                         className="text-white text-md hover:border-b"
                                     >
                                         F.A.Q

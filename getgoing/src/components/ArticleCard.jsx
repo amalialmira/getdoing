@@ -1,4 +1,4 @@
-const Card3 = () => {
+const ArticleCard = () => {
     return (
         <div style={{ fontFamily: "Poppins" }} className="py-4 mx-auto lg:max-w-7xl sm:max-w-full">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-3 gap-6">
@@ -155,4 +155,4 @@ const Card3 = () => {
     )
 }
 
-export default Card3;
+export default ArticleCard;

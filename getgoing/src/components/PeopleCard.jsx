@@ -69,7 +69,7 @@ const PeopleCard = () => {
             <div className="mt-2 gap-10 slider-container mb-10">
             <Slider {...settings}>
                 {data.map((people, idx) => (
-                    <div key={idx} className="mb-5">
+                    <div key={idx} className="mb-5 pt-5">
                         <img
                         src={people.imgUrl}
                         className="w-52 h-52 object-cover rounded-2xl mb-2 cursor-pointer hover:-translate-y-2 transition-all relative"

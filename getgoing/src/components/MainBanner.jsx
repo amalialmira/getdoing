@@ -15,7 +15,7 @@ function NextArrow(props) {
         justifyContent: "center",
         color: "#dc2626",
         fontSize: "80px",
-        right: "-50px",
+        right: "-20px",
         zIndex: 10
       }}
       onClick={onClick}
@@ -108,7 +108,7 @@ const MainBanner = () => {
               <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black to-transparent rounded-b-2xl" />
             </div>
             <div className="flex flex-col items-center justify-center h-96"> 
-              <p style={{ letterSpacing: "0.25em" }} className="text-center text-gray-400 text-md font-light">
+              <p style={{ letterSpacing: "0.25em" }} className="text-center text-gray-400 text-md font-light mb-5">
                 APA YANG GETGOING PUNYA?
               </p>
               <div className="grid gap-6 w-full max-w-lg mt-5">

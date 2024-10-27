@@ -1,4 +1,5 @@
-import Card3 from "../components/Card3";
+
+import ArticleCard from "../components/ArticleCard";
 import CityCard from "../components/CityCard";
 import Footer from "../components/Footer";
 import MainBanner from "../components/MainBanner";
@@ -147,7 +148,7 @@ export default function Home() {
                         <p style={{ letterSpacing: "0.25em" }} className="text-sm">{`LIHAT SEMUA ARTIKEL >>`}</p>
                     </div>
                 </div>
-                <Card3 />
+                <ArticleCard />
             </div>
 
             <Footer />
