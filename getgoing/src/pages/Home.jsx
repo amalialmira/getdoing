@@ -2,9 +2,11 @@
 import ArticleCard from "../components/ArticleCard";
 import CityCard from "../components/CityCard";
 import Footer from "../components/Footer";
+import InfoButton from "../components/InfoButton";
 import MainBanner from "../components/MainBanner";
 import NavBar from "../components/NavBar";
 import PeopleCard from "../components/PeopleCard";
+import Review from "../components/Review";
 
 export default function Home() {
     return (
@@ -139,6 +141,7 @@ export default function Home() {
                 Cerita dari mereka yang telah menjelajahi Eropa bersama kami
                 </p>
             </div>
+            <Review/>
 
             {/* section baca juga */}
             <div style={{ fontFamily: "Poppins" }} className="bg-[#F5F5F5] py-20">
@@ -152,6 +155,7 @@ export default function Home() {
             </div>
 
             <Footer />
+            <InfoButton/>
         </div>
     )
 }   
