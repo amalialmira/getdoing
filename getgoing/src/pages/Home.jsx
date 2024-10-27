@@ -1,5 +1,7 @@
 import Card3 from "../components/Card3";
+import CityCard from "../components/CityCard";
 import Footer from "../components/Footer";
+import MainBanner from "../components/MainBanner";
 import NavBar from "../components/NavBar";
 import PeopleCard from "../components/PeopleCard";
 
@@ -7,6 +9,8 @@ export default function Home() {
     return (
         <div style={{ fontFamily: "Poppins" }}>
             <NavBar />
+
+            <MainBanner/>
 
             <div style={{ fontFamily: "Poppins" }} className="flex items-center justify-start text-3xl font-bold text-gray-800 mt-10 px-20">
                 <p className="mr-2">Sedang</p>
@@ -27,17 +31,18 @@ export default function Home() {
                 </p>
             </div>
 
+            {/* private trip */}
             <div className="flex px-20 py-10 gap-20">
                 <div className="w-2/3 space-y-5">
                         <p className="text-4xl text-red-600">PRIVATE TRIP</p>
                     <div className="pb-10">
                         <div className="flex">
-                            <p className="text-4xl font-bold mr-2"
+                            <p className="text-4xl font-bold mr-2 drop-shadow-lg"
                             >Berangkat</p>
-                            <p className="text-4xl font-bold text-red-600"
+                            <p className="text-4xl font-bold text-red-600 drop-shadow-lg"
                             >Kapan Saja</p>
                         </div>
-                        <p className="text-4xl font-bold"
+                        <p className="text-4xl font-bold drop-shadow-lg"
                         >Semaumu</p>
                     </div>
                     <div className="grid grid-cols-2 gap-5 px-10">
@@ -115,6 +120,23 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div style={{ fontFamily: "Poppins" }} className="flex items-center justify-start text-3xl font-bold text-gray-800 mt-10 px-20">
+                <p className="mr-2">Kota</p>
+                <p className="mr-2 text-red-600">Populer</p>
+            </div>
+            <CityCard/>
+
+            {/* kata mereka */}
+            <div style={{ fontFamily: "Poppins" }} className="my-10 mt-10">
+                <div className="flex items-center justify-center text-3xl font-bold text-gray-800 mb-3">
+                    <p className="mr-2 drop-shadow-lg">Kata</p>
+                    <p className="text-red-600 drop-shadow-lg">Mereka</p>
+                </div>
+                <p className="text-center text-lg text-gray-400">
+                Cerita dari mereka yang telah menjelajahi Eropa bersama kami
+                </p>
             </div>
 
             {/* section baca juga */}

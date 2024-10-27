@@ -1,3 +1,7 @@
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 const data = [
     {
         imgUrl:"https://ik.imagekit.io/getgoing/tr:w-800,h-1000/v0/b/getgoing-prod.appspot.com/o/avatar%2F1724200976015?alt=media&token=50786cb5-41e5-4353-96ac-c8558febc60c",
@@ -52,11 +56,20 @@ const data = [
 ]
 
 const PeopleCard = () => {
+    const settings = {
+        dots: true,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 5,
+        slidesToScroll: 1
+    }
+
     return(
         <div style={{fontFamily: "Poppins"}} className="px-20 py-5 m-auto">
-            <div className="mt-2 grid grid-cols-5 gap-10">
+            <div className="mt-2 gap-10 slider-container mb-10">
+            <Slider {...settings}>
                 {data.map((people, idx) => (
-                    <div key={idx}>
+                    <div key={idx} className="mb-5">
                         <img
                         src={people.imgUrl}
                         className="w-52 h-52 object-cover rounded-2xl mb-2 cursor-pointer hover:-translate-y-2 transition-all relative"
@@ -69,6 +82,7 @@ const PeopleCard = () => {
                         </p>
                     </div>
                 ))}
+            </Slider>
             </div>
 
         </div>
