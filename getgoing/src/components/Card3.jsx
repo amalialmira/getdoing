@@ -37,8 +37,8 @@ const Card3 = () => {
                             </svg>
                             <span>21 Mei 2024</span>
                         </div>
-                        <a href="https://getgoing.co.id/blog/SeruSeruanJelajahiKotadiEropaEksplorasiCityTouryangWajibDicoba" className="flex items-center mt-5 text-red-600 hover:underline hover:text-red-700">
-                            <p className="text-sm font-bold mr-2">LANJUTKAN MEMBACA</p>
+                        <a href="https://getgoing.co.id/blog/SeruSeruanJelajahiKotadiEropaEksplorasiCityTouryangWajibDicoba" className="flex items-center mt-10 text-red-600 hover:underline hover:text-red-700">
+                            <p style={{ letterSpacing: "0.3em" }} className="text-xs font-bold mr-2">LANJUTKAN MEMBACA</p>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24"
@@ -86,8 +86,8 @@ const Card3 = () => {
                             </svg>
                             <span>2 Jun 2023</span>
                         </div>
-                        <a href="https://getgoing.co.id/blog/SeruSeruanJelajahiKotadiEropaEksplorasiCityTouryangWajibDicoba" className="flex items-center mt-5 text-red-600 hover:underline hover:text-red-700">
-                            <p className="text-sm font-bold mr-2">LANJUTKAN MEMBACA</p>
+                        <a href="https://getgoing.co.id/blog/SeruSeruanJelajahiKotadiEropaEksplorasiCityTouryangWajibDicoba" className="flex items-center mt-10 text-red-600 hover:underline hover:text-red-700">
+                            <p style={{ letterSpacing: "0.3em" }} className="text-xs font-bold mr-2">LANJUTKAN MEMBACA</p>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24"
@@ -135,8 +135,8 @@ const Card3 = () => {
                             </svg>
                             <span>27 Okt 2023</span>
                         </div>
-                        <a href="https://getgoing.co.id/blog/DaylightSavingTimeUpayaMaksimalkanCahayaMataharidanPenghematanEnergi" className="flex items-center mt-5 text-red-600 hover:underline hover:text-red-700">
-                            <p className="text-sm font-bold mr-2">LANJUTKAN MEMBACA</p>
+                        <a href="https://getgoing.co.id/blog/DaylightSavingTimeUpayaMaksimalkanCahayaMataharidanPenghematanEnergi" className="flex items-center mt-10 text-red-600 hover:underline hover:text-red-700">
+                            <p style={{ letterSpacing: "0.3em" }} className="text-xs font-bold mr-2">LANJUTKAN MEMBACA</p>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24"

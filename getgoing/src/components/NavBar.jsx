@@ -61,7 +61,7 @@ const Navbar = () => {
                                     Blog
                                 </li>
                                 <li className="flex text-[15px] max-lg:py-2 px-3 hover:text-[#007bff] hover:fill-[#007bff]">
-                                    <button className="px-4 py-2 text-sm font-semibold text-[#333] bg-transparent">
+                                    <button style={{letterSpacing: "0.25em"}} className="px-4 py-2 text-sm font-bold text-[#333] bg-transparent">
                                         LOGIN
                                     </button>
                                 </li>
@@ -132,7 +132,7 @@ const Navbar = () => {
                                         Blog
                                     </li>
                                     <li className="flex text-[15px] max-lg:py-2 px-3 hover:text-[#007bff] hover:fill-[#007bff]">
-                                        <button className="px-4 py-2 text-sm font-semibold text-[#333] bg-transparent">
+                                        <button style={{letterSpacing: "0.25em"}}  className="px-4 py-2 text-sm font-bold text-[#333] bg-transparent">
                                             LOGIN
                                         </button>
                                     </li>
